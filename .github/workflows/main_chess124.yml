@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'Chess124'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9B85484DD234C508BD6DA58F4737B0C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0808E97158324A4A89F5F0EB08117A95 }}
           package: .
