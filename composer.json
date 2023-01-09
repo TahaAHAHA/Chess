@@ -1,0 +1,30 @@
+{
+    "name": "chesscom/chess-game",
+    "description": "Represents a chess game as a php object",
+    "keywords": ["chess", "php"],
+    "homepage": "https://github.com/ChessCom/Chess-Game",
+    "type": "library",
+    "license": "PHP-3.01",
+    "authors": [
+        {
+            "name": "Chess team",
+            "homepage": "http://www.chess.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~2.3",
+        "phpunit/phpunit": "^7.3 || ^9.5"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Chess\\Game": "src/"
+        },
+        "files": ["PEAR.php"]
+    }
+}
